@@ -120,12 +120,49 @@ const Hangman: React.FC<HangmanProps> = ({ maxAttempts }) => {
 
 // Example array with 50 words
 const wordList = [
-  'JAVASCRIPT',
-  'REACT',
-  'TYPESCRIPT',
-  'HTML',
-  'CSS',
-  // Add more words as needed
-];
+    'JAVASCRIPT',
+    'REACT',
+    'TYPESCRIPT',
+    'HTML',
+    'CSS',
+    'PYTHON',
+    'JAVA',
+    'C#',
+    'ANGULAR',
+    'NODEJS',
+    'PHP',
+    'MYSQL',
+    'MONGODB',
+    'RUBY',
+    'SWIFT',
+    'GO',
+    'DOCKER',
+    'KUBERNETES',
+    'AWS',
+    'AZURE',
+    'GITHUB',
+    'GIT',
+    'REST',
+    'API',
+    'JSON',
+    'XML',
+    'SQL',
+    'DATABASE',
+    'LINUX',
+    'UNIX',
+    'BASH',
+    'DOCKER',
+    'CI/CD',
+    'WEBPACK',
+    'JQUERY',
+    'VUEJS',
+    'FLUTTER',
+    'DJANGO',
+    'FLASK',
+    'GRAPHQL',
+  ];
+  
+  console.log(wordList);
+  
 
 export default Hangman;
